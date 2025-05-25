@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>APE - Apoio Psicológico Estudantil</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #ffffff;
+      color: #333;
+    }
+    header {
+      background-color: #00b3b3;
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header img {
+      height: 60px;
+    }
+    header h1 {
+      color: white;
+      margin-left: 1rem;
+    }
+    nav {
+      display: flex;
+      gap: 1rem;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .content-section {
+      padding: 2rem;
+    }
+    .section-title {
+      color: #8e5be6;
+      border-left: 5px solid #00b3b3;
+      padding-left: 1rem;
+      margin-top: 2rem;
+    }
+    .video-container, .app-suggestions, .exercises {
+      margin-top: 1rem;
+    }
+    footer {
+      background-color: #00b3b3;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    ul li {
+      margin-bottom: 0.5rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div style="display: flex; align-items: center;">
+      <img src="ape foto.jpg" alt="Logo APE">
+      <h1>APE - Apoio Psicológico Estudantil</h1>
+    </div>
+    <nav>
+      <a href="#procrastinacao">Procrastinação e Comparação</a>
+      <a href="#autoestima">Baixa Autoestima</a>
+      <a href="#ansiedade">Ansiedade</a>
+      <a href="#depressao">Depressão</a>
+      <a href="#transtornos">Transtornos Alimentares</a>
+    </nav>
+  </header>
+
+  <main class="content-section">
+    <section id="procrastinacao">
+      <h2 class="section-title">Procrastinação e Comparação</h2>
+      <p><strong>Texto de Apoio:</strong><br>
+      A gente não procrastina só por preguiça. Muitas vezes, adiamos porque nos comparamos demais e achamos que não vamos ser bons o bastante. O problema é que, enquanto olhamos para a vida dos outros, deixamos a nossa parada. Que tal focar mais em começar do que em se comparar?</p>
+
+      <div class="video-container">
+        <h3>Vídeos de Apoio</h3>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=arj7oStGLkU" target="_blank">Inside the Mind of a Master Procrastinator – Tim Urban (TED)</a></li>
+          <li><a href="https://www.youtube.com/watch?v=OZcRD9fV7jo" target="_blank">Comparison is the Thief of Joy – Jay Shetty</a></li>
+          <li><a href="https://www.youtube.com/watch?v=bv_x9XBFKlc" target="_blank">Como parar de procrastinar em 5 minutos – Rafael Mantesso</a></li>
+        </ul>
+      </div>
+
+      <div class="exercises">
+        <h3>Exercícios Individuais</h3>
+        <ol>
+          <li>Comece com 5 minutos.</li>
+          <li>Anote uma comparação.</li>
+          <li>Checklist emocional.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="autoestima">
+      <h2 class="section-title">Baixa Autoestima</h2>
+      <p><strong>Texto de Apoio:</strong><br>
+      A autoestima é a forma como nos vemos e nos valorizamos. Estudantes com baixa autoestima tendem a duvidar de sua capacidade e se sentem inseguros diante dos desafios acadêmicos.</p>
+
+      <div class="video-container">
+        <h3>Vídeos de Apoio</h3>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=0WyYHj7z4Gk" target="_blank">Como melhorar sua autoestima – Rafael Baltresca</a></li>
+          <li><a href="https://www.youtube.com/watch?v=pSbbS6XgJrA" target="_blank">Como ter autoestima – Gisele Bundchen e Jay Shetty</a></li>
+        </ul>
+      </div>
+
+      <div class="exercises">
+        <h3>Exercícios Individuais</h3>
+        <ol>
+          <li>Liste 3 qualidades suas toda manhã.</li>
+          <li>Escreva um elogio para si mesmo após estudar.</li>
+          <li>Evite autocríticas — escreva alternativas mais gentis.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="ansiedade">
+      <h2 class="section-title">Ansiedade</h2>
+      <p><strong>Texto de Apoio:</strong><br>
+      A ansiedade pode se manifestar como preocupação excessiva, dificuldade de concentração e medo constante de fracassar, especialmente em épocas de prova ou entrega de trabalhos.</p>
+
+      <div class="video-container">
+        <h3>Vídeos de Apoio</h3>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=bMy5rY2hP9c" target="_blank">Como controlar a ansiedade – Dra. Ana Beatriz</a></li>
+          <li><a href="https://www.youtube.com/watch?v=FjeVn-ZbVqA" target="_blank">Ansiedade nos estudos – Me poupe!</a></li>
+        </ul>
+      </div>
+
+      <div class="exercises">
+        <h3>Exercícios Individuais</h3>
+        <ol>
+          <li>Respiração 4-4-4-4: Inspire 4s, segure 4s, expire 4s, segure 4s.</li>
+          <li>Escreva o que te preocupa e rasgue o papel.</li>
+          <li>Medite por 2 minutos com app ou vídeo.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="depressao">
+      <h2 class="section-title">Depressão</h2>
+      <p><strong>Texto de Apoio:</strong><br>
+      Tristeza constante, cansaço sem motivo e falta de interesse nas coisas podem ser sinais de depressão. É importante não ignorar e buscar ajuda profissional.</p>
+
+      <div class="video-container">
+        <h3>Vídeos de Apoio</h3>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=XiCrniLQGYc" target="_blank">O que é depressão? – TED-Ed</a></li>
+          <li><a href="https://www.youtube.com/watch?v=drJrEYJ1z6Y" target="_blank">Como ajudar alguém com depressão – Minutos Psíquicos</a></li>
+        </ul>
+      </div>
+
+      <div class="exercises">
+        <h3>Exercícios Individuais</h3>
+        <ol>
+          <li>Estabeleça uma rotina leve, com pausas.</li>
+          <li>Fale com alguém de confiança sobre o que sente.</li>
+          <li>Escreva 3 coisas que te fizeram bem no dia.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="transtornos">
+      <h2 class="section-title">Transtornos Alimentares</h2>
+      <p><strong>Texto de Apoio:</strong><br>
+      Os transtornos alimentares envolvem uma relação desequilibrada com a comida e o corpo. Podem afetar a saúde física e mental, exigindo atenção e cuidado.</p>
+
+      <div class="video-container">
+        <h3>Vídeos de Apoio</h3>
+        <ul>
+          <li><a href="https://www.youtube.com/watch?v=7UiggC1jlF4" target="_blank">Transtornos Alimentares – Drauzio Varella</a></li>
+          <li><a href="https://www.youtube.com/watch?v=_Q6u3-ZclyY" target="_blank">Aceitação do corpo – Camila Fremder e convidados</a></li>
+        </ul>
+      </div>
+
+      <div class="exercises">
+        <h3>Exercícios Individuais</h3>
+        <ol>
+          <li>Pratique o diário alimentar emocional.</li>
+          <li>Liste 5 coisas que você valoriza além da aparência.</li>
+          <li>Evite espelhos por 1 dia e observe como se sente.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="app-suggestions">
+      <h2 class="section-title">Aplicativos Úteis</h2>
+      <ul>
+        <li><strong>Headspace:</strong> Meditação guiada para ansiedade e foco.</li>
+        <li><strong>Forest:</strong> Combata a procrastinação plantando uma árvore virtual.</li>
+        <li><strong>MindShift:</strong> Ferramentas para gerenciar ansiedade.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>APE - Apoio Psicológico Estudantil &copy; 2025. Todos os direitos reservados.</p>
+    <p>CVV: Ligue 188 | Instagram: <a href="https://www.instagram.com/ape.abh" target="_blank">@ape.abh</a></p>
+  </footer>
+</body>
+</html>
